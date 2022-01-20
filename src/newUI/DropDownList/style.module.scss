@@ -1,0 +1,28 @@
+.bar {
+  width: 932px;
+  height: 40px;
+  background: #26313a;
+  border-radius: 10px;
+  margin: 10px 0;
+  display: flex;
+}
+
+.content {
+  height: auto;
+}
+
+.title {
+  flex: 1;
+  color: white;
+  font-family: arial;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.control {
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
